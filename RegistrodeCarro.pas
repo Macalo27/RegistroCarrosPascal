@@ -1,4 +1,5 @@
-
+//Natanael Cabral Lopes RA: 2220868 
+//Damaris Gulin Kuss RA: 2220437
 Program Pzim ;
 type
 	valores = record
@@ -51,11 +52,11 @@ Begin
         		writeln();
         		writeln('------------------------------------------');
         		writeln();
-        		writeln('Digite o Nome do Acess髍io? ');
+        		writeln('Digite o Nome do Acess贸rio? ');
         		writeln('Multimidia - R$2.000');
-        		writeln('Aerof髄io - R$1.000');
-        		writeln('Far骾s de Neblina - R$1.000');
-        		writeln('Sem acess髍ios - R$0');
+        		writeln('Aerof贸lio - R$1.000');
+        		writeln('Far贸is de Neblina - R$1.000');
+        		writeln('Sem acess贸rios - R$0');
         		readln(carro[i].calc.nomeAcessorio[j]);                      
         		writeln();
         		writeln('------------------------------------------');
@@ -89,19 +90,19 @@ Begin
         writeln('Valor de Compra.........:R$', carro[i].calc.compra[j]:0:3);
 				writeln('Marca...................:', carro[i].marca);
 				writeln('Ano do Carro............:', carro[i].ano:0:0);
-				writeln('Acess髍io: ',carro[i].calc.nomeAcessorio[j],' de Valor: R$',carro[i].calc.acessorio[j]:0:3);                                                 
+				writeln('Acess贸rio: ',carro[i].calc.nomeAcessorio[j],' de Valor: R$',carro[i].calc.acessorio[j]:0:3);                                                 
         writeln();
         
         
     end;    
         
-        writeln('--------------- Relat髍io ---------------');
+        writeln('--------------- Relat贸rio ---------------');
         writeln();
         writeln('Total Gasto em Compra............:R$', totalcompra:0:3);
         writeln('Total em Vendas..................:R$', totalVenda:0:3);        
-        writeln('Total em Acess髍ios..............:R$', totalacessorio:0:3);
+        writeln('Total em Acess贸rios..............:R$', totalacessorio:0:3);
         writeln('Total em Lucro...................:R$', totallucro:0:3);
-        writeln('Total em Lucro + Acess髍ios......:R$', totallucro2:0:3);
+        writeln('Total em Lucro + Acess贸rios......:R$', totallucro2:0:3);
         writeln();
         writeln('------------------------------------------');
         writeln();
